@@ -1,0 +1,98 @@
+body {
+    background: url('../images/bg-desktop.svg') no-repeat;
+    background-color: var(--cor-principal);
+    font-family: 'Poppins', sans-serif;
+    margin: 40px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo {
+    width: 160px;
+}
+
+.header .logo img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1440px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.container .imagem-ilustrativa{
+    max-width: 100%;
+    flex: 1;
+    margin-top: 20px;
+}
+
+.container .imagem-ilustrativa img {
+    max-width: 100%;
+}
+
+.container .informacoes {
+    color: white;
+    padding: 50px;
+    flex: 1;
+    max-width: 40%;
+}
+
+.container .informacoes .titulo {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.container .informacoes .descricao {
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.botao-registro {
+    padding: 15px 60px;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px hsl(217, 19%, 24%);
+    border: none;
+    color: var(--cor-principal);
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botao-registro:hover {
+    color: #fff;
+    background-color: var(--cor-animacao);
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+.social a {
+    padding: 8px;
+}
+
+.social a i {
+    color: white;
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 50%;
+    width: 18px;
+    height: 17px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.social a i:hover {
+    color: var(--cor-animacao);
+}
